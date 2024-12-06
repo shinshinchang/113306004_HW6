@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>113306004_HW6_1A2B</title>
+    <link rel="stylesheet" href="1A2B.css">
+</head>
+<body>
+    <h1>113306004_HW6_1A2B</h1>
+    <div class="container">
+        <div class="input-group">
+            <input type="text" id="guessInput" placeholder="輸入四位不重複數字">
+            <button onclick="submitGuess()">猜!</button>
+        </div>
+        <div class="record-label">遊戲紀錄：</div>
+        <div class="results" id="results"></div>
+        <div class="fireworks" id="fireworks">
+            <canvas id="fireworksCanvas"></canvas>
+        </div>
+        <audio id="fireworksSound" src="mario.mp3"></audio>
+    </div>
+    <script src="1A2B.js"></script>
+</body>
+</html>
